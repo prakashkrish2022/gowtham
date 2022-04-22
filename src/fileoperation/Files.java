@@ -20,6 +20,7 @@ public class Files {
 		
 		boolean createNewFile = f1.createNewFile();
 		System.out.println(createNewFile);
+		File f2= new File("E:\\prakash\\aa\\a2");
 		
 		boolean directory = f.isDirectory();
 		System.out.println(directory);
